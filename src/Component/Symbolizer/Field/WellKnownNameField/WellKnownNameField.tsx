@@ -49,10 +49,16 @@ export interface WellKnownNameFieldProps {
 export const WellKnownNameField: React.FC<WellKnownNameFieldProps> = ({
   onChange,
   value = 'circle',
-  wellKnownNames = ['circle', 'square', 'triangle', 'star', 'cross', 'x',
-    'shape://backslash', 'shape://carrow', 'shape://dot',
-    'shape://horline', 'shape://oarrow', 'shape://plus',
-    'shape://slash', 'shape://times', 'shape://vertline']
+  wellKnownNames = ['arrow', 'arrowhead', 'asterisk_fill', 'circle', 'cross', 'cross2',
+    'cross_fill', 'decagon', 'diagonal_half_square', 'diamond', 'equilateral_triangle',
+    'filled_arrowhead', 'half_arc', 'half_square', 'heart', 'hexagon', 'left_half_triangle',
+    'line', 'octagon', 'parallelogram_left', 'parallelogram_right', 'pentagon', 'quarter_arc',
+    'quarter_circle', 'quarter_square', 'right_half_triangle', 'rounded_square', 'semi_circle',
+    'shield', 'square', 'square_with_corners', 'star', 'star_diamond', 'third_arc', 'third_circle',
+    'trapezoid', 'triangle', 'x',
+    'shape://vertline', 'shape://horline', 'shape://slash',
+    'shape://backslash', 'shape://dot', 'shape://plus',
+    'shape://times', 'shape://oarrow', 'shape://carrow']
 }) => {
 
   const locale = useGeoStylerLocale('WellKnownNameField');
